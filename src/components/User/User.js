@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import user from '../../images/user.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
@@ -7,11 +7,16 @@ import './User.css'
 const User = (props) => {
     const [breackTime, setBreackTime] = useState(0)
 
+
     const addToBreackTime = (time) => {
         setBreackTime(time)
         localStorage.setItem('breack-time', time);
 
     }
+    useEffect(() => {
+        const storedTime = localStorage.getItem('breack-time');
+        setBreackTime(storedTime)
+    }, [])
 
     return (
         <div className='bg-white p-10 rounded fixed top-0 right-0 z-10'>
