@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/pZ4XL8c/Untitled-220-100-px-250-100-px.png",
+    "name": "Daily runner",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500 ",
+    "age": "20-25",
+    "time": "50m"
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/Qp8vDrq/Untitled-220-100-px-250-100-px-1.png",
+    "name": "Daily runner",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500 ",
+    "age": "20-25",
+    "time": "50m"
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/KF594K4/Untitled-220-100-px-250-100-px-2.png",
+    "name": "Daily runner",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500 ",
+    "age": "20-25",
+    "time": "50m"
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/PQqvCT1/Untitled-220-100-px-250-100-px-3.png",
+    "name": "Daily runner",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500 ",
+    "age": "20-25",
+    "time": "50m"
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/yNb6DwL/Untitled-220-100-px-250-100-px-4.png",
+    "name": "Daily runner",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500 ",
+    "age": "20-25",
+    "time": "50m"
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/ZXKPkHC/Untitled-220-100-px-250-100-px-5.png",
+    "name": "Daily runner",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500 ",
+    "age": "20-25",
+    "time": "50m"
+  }
+]
