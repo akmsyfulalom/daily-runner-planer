@@ -3,6 +3,8 @@ import user from '../../images/user.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import './User.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const User = (props) => {
     const [breackTime, setBreackTime] = useState(0)
@@ -17,6 +19,9 @@ const User = (props) => {
         const storedTime = localStorage.getItem('breack-time');
         setBreackTime(storedTime)
     }, [])
+    const completeToastify = () => {
+        toast("Your Daily Planner successfull!")
+    }
 
     return (
         <div className='bg-white p-10 rounded fixed top-0 right-0 z-10'>
@@ -66,8 +71,9 @@ const User = (props) => {
                 </div>
             </div>
             <div className='text-center'>
-                <button className='font-bold  bg-blue-500  mt-5  py-3 px-24 rounded items-center '>Activity Completed
+                <button onClick={completeToastify} className='font-bold  bg-blue-500  mt-5  py-3 px-24 rounded items-center '>Activity Completed
                 </button>
+                <ToastContainer />
             </div>
         </div>
     );
