@@ -24,7 +24,7 @@ const User = (props) => {
     }
 
     return (
-        <div className='bg-white p-10 rounded fixed top-0 right-0 z-10'>
+        <div className='bg-white p-10 rounded'>
             <div className='flex '>
                 <img className='w-14 rounded-full mr-4' src={user} alt="" />
                 <div>
