@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import User from '../User/User';
 
 const Card = (props) => {
     console.log(props.runner)
